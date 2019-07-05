@@ -5,6 +5,7 @@
 The script and its documentation are taken from [cve_manager](https://github.com/aatlasis/cve_manager).
 The improved script functions fine on python 3.7 and later, and some bugs are fixed that were associated with Python v2.7.
 
+
 Python script for preparing NVD JSON feeds and importing in Local Database | Python 3.7 | Django 2.2.2
 
   a) parses NIST NVD CVEs, 
@@ -16,8 +17,8 @@ Python script for preparing NVD JSON feeds and importing in Local Database | Pyt
 
 ### Before Script execution create following directories.
 
-`mkdir results`
-`mkdir nvd`
+- `mkdir results`
+- `mkdir nvd`
 
 ### Create Virtual Env:
 
