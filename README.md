@@ -14,10 +14,18 @@ Python script for preparing NVD JSON feeds and importing in Local Database | Pyt
   
   d) provides query capabilities for this CVEs database.
 
-Before Script execution create following directories.
+### Before Script execution create following directories.
 
 `mkdir results`
 `mkdir nvd`
+
+### Create Virtual Env:
+
+- `sudo apt install virtualenv`
+- `virtualenv --python=python3 vepy3`
+- `source vepy3/bin/activate`
+- `python -m pip install -r requirements.txt`
+- `python ./script.py COMMAND PARAMETERS AND SWITCHES`
 
 Usage examples: 
 
