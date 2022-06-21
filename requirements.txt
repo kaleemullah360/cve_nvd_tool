@@ -25,7 +25,7 @@ macaroonbakery==1.2.1
 Mako==1.0.7
 MarkupSafe==1.1.0
 netifaces==0.10.4
-numpy==1.16.4
+numpy==1.22.0
 oauthlib==2.1.0
 olefile==0.46
 pexpect==4.6.0
